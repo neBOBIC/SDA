@@ -34,7 +34,6 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
 }
 
 int main() {
-    // Shared part of the lists
     ListNode *node8 = new ListNode(8);
     ListNode *node4 = new ListNode(4);
     ListNode *node5 = new ListNode(5);
@@ -42,12 +41,10 @@ int main() {
     node8->next = node4;
     node4->next = node5;
 
-    // List A: 4 -> 1 -> 8 -> 4 -> 5
     ListNode *headA = new ListNode(4);
     headA->next = new ListNode(1);
     headA->next->next = node8;
 
-    // List B: 5 -> 6 -> 1 -> 8 -> 4 -> 5
     ListNode *headB = new ListNode(5);
     headB->next = new ListNode(6);
     headB->next->next = new ListNode(1);
