@@ -12,7 +12,7 @@
 using namespace std;
 
 int main() {
-    string s = "([])";
+    string s = "([})";
     stack<char> brackets;
     bool valid = true;
 

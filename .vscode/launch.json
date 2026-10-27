@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/adria/Desktop/SDA/laborator1",
-      "program": "c:/Users/adria/Desktop/SDA/laborator1/build/Debug/outDebug",
+      "cwd": "c:/Users/adria/Desktop/SDA/laborator2",
+      "program": "c:/Users/adria/Desktop/SDA/laborator2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
